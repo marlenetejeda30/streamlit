@@ -14,7 +14,7 @@ from streamlit_option_menu import option_menu
 
 st.set_page_config(layout="wide")
 
-main_path = "/users/mtejeda/Downloads/"
+main_path = ""
 
 netflix= pd.read_csv(main_path+"ns.csv")
 
